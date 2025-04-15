@@ -1,0 +1,99 @@
+/* Styles généraux */
+body {
+    font-family: 'Lora', serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Conteneur centré */
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+    }
+}
+
+/* Carte blanche avec ombre */
+.card-white {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Effet au survol */
+.card-white:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Image de profil */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Bouton */
+.btn {
+    display: inline-block;
+    background-color: #ff4b5c;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #e04353;
+}
+
+/* Passions */
+.passion {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Réseaux sociaux */
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    font-size: 24px;
+    color: #ff4b5c;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #e04353;
+}
+
